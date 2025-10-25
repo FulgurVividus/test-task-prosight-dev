@@ -11,4 +11,18 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
   },
+  app: {
+    head: {
+      title: "Test Task",
+      htmlAttrs: {
+        lang: "en",
+      },
+      meta: [
+        {
+          name: "Prosight DEV test task",
+          content: "This is a test task of Prosight DEV",
+        },
+      ],
+    },
+  },
 });
