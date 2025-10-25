@@ -2,7 +2,8 @@ import sophiaAvatar from "../assets/imgs/sophia-williams.webp";
 import liamAvatar from "../assets/imgs/liam-johnson.webp";
 import emmaAvatar from "../assets/imgs/emma-brown.webp";
 
-type mockDataType = {
+export type mockDataType = {
+  id: number;
   avatar: string;
   fullName: string;
   flag: number;
@@ -16,6 +17,7 @@ type mockDataType = {
 
 export const mockData: mockDataType[] = [
   {
+    id: 1,
     avatar: sophiaAvatar,
     fullName: "Sophia Williams",
     flag: 5,
@@ -27,6 +29,7 @@ export const mockData: mockDataType[] = [
     days: dateDifferenceInDays("2025-05-25", "2025-05-28"),
   },
   {
+    id: 2,
     avatar: liamAvatar,
     fullName: "Liam Johnson",
     flag: 3,
@@ -38,6 +41,7 @@ export const mockData: mockDataType[] = [
     days: dateDifferenceInDays("2025-05-25", "2025-05-28"),
   },
   {
+    id: 3,
     avatar: emmaAvatar,
     fullName: "Emma Brown",
     flag: 2,
