@@ -1,7 +1,5 @@
 # 🌟 Prosight DEV — Test Task
 
----
-
 ## ⚙️ Tech Stack
 
 - 🧩 **Vue 3** — The progressive JavaScript framework for building user interfaces
@@ -27,7 +25,7 @@
 ## 📷 Preview
 
 <p align="center">
-  <img src="/app/assets/imgs/test-task.png" alt="App Screenshot" width="700"/>
+  <img src="/app/assets/imgs/test-task.png" alt="App Screenshot" height="500" width="700"/>
 </p>
 
 ---
