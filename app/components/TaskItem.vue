@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-white flex flex-col gap-2.5 py-2.5 px-4 rounded-xl sm:w-xs">
+    <div class="bg-white flex flex-col gap-2.5 py-2.5 px-4 rounded-xl">
       <div class="flex items-center justify-between">
         <!-- avatar & name -->
         <div class="flex items-center gap-1">

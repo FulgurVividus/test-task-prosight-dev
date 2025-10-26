@@ -1,8 +1,8 @@
 <template>
-  <section class="p-5">
+  <section class="pt-5">
     <UContainer>
       <!-- search -->
-      <div class="md:px-5">
+      <div class="md:px-5 flex items-center justify-between">
         <form role="search">
           <keep-alive>
             <search>
@@ -17,15 +17,18 @@
             </search>
           </keep-alive>
         </form>
+        <div class="bg-gray-100 rounded px-2 py-1 cursor-pointer">
+          <UIcon name="nimbus:align-center" />
+        </div>
       </div>
-
-      <!-- tasks list -->
-      <TasksList
-        :filteredTasks="filteredTasks"
-        :isAlphabetical="isAlphabetical"
-        @toggle-sort="handleToggleSort"
-      />
     </UContainer>
+
+    <!-- tasks list -->
+    <TasksList
+      :filteredTasks="filteredTasks"
+      :isAlphabetical="isAlphabetical"
+      @toggle-sort="handleToggleSort"
+    />
   </section>
 </template>
 
