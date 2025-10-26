@@ -1,75 +1,45 @@
-# Nuxt Minimal Starter
+# 🌟 Prosight DEV — Test Task
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+---
 
-## Setup
+## ⚙️ Tech Stack
 
-Make sure to install dependencies:
+- 🧩 **Vue 3** — The progressive JavaScript framework for building user interfaces
+- ⚡ **Nuxt 3** — The intuitive meta-framework that powers the SPA experience
+- 🎨 **Tailwind CSS** — For responsive, utility-first styling
+- 🧱 **Nuxt UI** — A minimal and elegant UI component library
+- 💬 **TypeScript** — Type-safe development for scalability and reliability
+- 🧪 **Playwright** — For modern end-to-end testing
+- 🍞 **Bun** — Lightning-fast package manager and runtime
+
+---
+
+## ✨ Features
+
+- 🔍 **Search Functionality** — Quickly find content through dynamic keyword search
+- 🧮 **Filtering System** — Filter data in real-time with a clean and reactive UI
+- 📱 **Responsive Design** — Fully adaptive layout for desktop, tablet, and mobile screens
+- ⚡ **SPA Experience** — Seamless navigation and instant interactions
+- ✅ **End-to-End Test** — Includes one Playwright test ensuring core functionality works as expected
+
+---
+
+## 📷 Preview
+
+<p align="center">
+  <img src="/app/assets/imgs/test-task.png" alt="App Screenshot" width="700"/>
+</p>
+
+---
+
+## 🚀 Quick Start
+
+Clone the repository and install dependencies with Bun:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
 bun run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
