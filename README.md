@@ -2,8 +2,8 @@
 
 ## ⚙️ Tech Stack
 
-- 🧩 **Vue 3** — The progressive JavaScript framework for building user interfaces
-- ⚡ **Nuxt 3** — The intuitive meta-framework that powers the SPA experience
+- 🧩 **Vue** — The progressive JavaScript framework for building user interfaces
+- ⚡ **Nuxt** — The intuitive meta-framework that powers the SPA experience
 - 🎨 **Tailwind CSS** — For responsive, utility-first styling
 - 🧱 **Nuxt UI** — A minimal and elegant UI component library
 - 💬 **TypeScript** — Type-safe development for scalability and reliability
