@@ -10,6 +10,7 @@
         aria-label="Sort"
         title="Sort"
         @click="$emit('toggleSort')"
+        data-testid="sort-toggle"
         class="cursor-pointer hover:bg-gray-300 transition-all duration-200 h-5 w-5 rounded-full"
       >
         <UIcon name="bxs:sort-alt" class="size-4" />
@@ -17,7 +18,7 @@
     </div>
 
     <ul class="flex flex-col space-y-3 md:flex-row justify-between flex-wrap">
-      <li v-for="task in filteredTasks" :key="task.id">
+      <li v-for="task in filteredTasks" :key="task.id" :data-task="task">
         <TaskItem :task="task" />
       </li>
     </ul>
