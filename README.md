@@ -25,7 +25,7 @@
 ## 📷 Preview
 
 <p align="center">
-  <img src="/app/assets/imgs/test-task.png" alt="App Screenshot" height="500" width="700"/>
+  <img src="/app/assets/imgs/test-task.png" alt="App Screenshot" width="500"/>
 </p>
 
 ---
