@@ -1,7 +1,7 @@
 <template>
   <section
     class="mt-5 p-5 bg-gray-100 min-h-screen"
-    style="min-height: calc(100dvh - 72px)"
+    style="min-height: calc(100dvh - 115px)"
   >
     <div class="max-w-[1176px] w-full mx-auto">
       <div class="flex items-start justify-between">

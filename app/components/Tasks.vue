@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-5">
+  <section class="mt-5">
     <UContainer>
       <!-- search -->
       <div class="md:px-5 flex items-center justify-between">
@@ -12,7 +12,6 @@
                 type="search"
                 color="neutral"
                 v-model="searchValue"
-                autofocus
               />
             </search>
           </keep-alive>

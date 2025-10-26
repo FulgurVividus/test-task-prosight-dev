@@ -1,5 +1,7 @@
 <template>
-  <section>
-    <Tasks />
-  </section>
+  <section></section>
 </template>
+
+<script setup lang="ts">
+navigateTo("/tasks");
+</script>
