@@ -25,4 +25,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+  runtimeConfig: {
+    public: {
+      mode: process.env.NUXT_MODE,
+    },
+  },
 });
