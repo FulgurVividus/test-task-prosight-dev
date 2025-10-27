@@ -1,5 +1,7 @@
 # 🌟 Prosight DEV — Test Task
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2809c1b4-7876-4b6a-826f-5a94866d95f4/deploy-status)](https://app.netlify.com/projects/fulgur-vividus-test-task-prosight/deploys)
+
 ## ⚙️ Tech Stack
 
 - 🧩 **Vue** — The progressive JavaScript framework for building user interfaces
